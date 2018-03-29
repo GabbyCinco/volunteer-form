@@ -18,7 +18,7 @@
 
       <form class="" action="https://formspree.io/cinc0008@algonquinlive.com" method="POST">
         <fieldset>
-          <legend>Personal details</legend>
+          <h2>Personal details</h2>
           <div class="">
             <label for="name">Full name</label>
             <input id="name" name="name" required>
@@ -59,7 +59,7 @@
           </div>
         </fieldset>
         <fieldset>
-          <legend>Address</legend>
+          <h2>Address</h2>
           <div class="">
             <label for="address">Street address</label>
             <input name="address" value="address" required>
@@ -93,77 +93,102 @@
           </div>
         </fieldset>
         <fieldset>
-          <legend>What activities are you interested in helping with?</legend>
+          <h2>What activities are you interested in helping with?</h2>
           <div class="">
-            <input id="digging"type="checkbox">
+            <input id="digging" type="checkbox">
             <label for="digging">Digging holes</label>
 
-            <input id="dirty"type="checkbox">
+            <input id="dirty" type="checkbox">
             <label for="dirty">Getting dirty</label>
 
-            <input id="lifting"type="checkbox">
+            <input id="lifting" type="checkbox">
             <label for="lifting">Lifting heavy objects</label>
 
-            <input id="driving"type="checkbox">
+            <input id="driving" type="checkbox">
             <label for="driving">Driving people</label>
 
-            <input id="trees"type="checkbox">
+            <input id="trees" type="checkbox">
             <label for="trees">Transporting trees</label>
 
-            <input id="photos"type="checkbox">
+            <input id="photos" type="checkbox">
             <label for="photos">Taking photos</label>
 
-            <input id="online"type="checkbox">
+            <input id="online" type="checkbox">
             <label for="online">Online publishing</label>
 
-            <input id="managing"type="checkbox">
+            <input id="managing" type="checkbox">
             <label for="managing">Managing people</label>
           </div>
         </fieldset>
         <fieldset>
-          <legend>Do you have any experience with the following?</legend>
+          <h2>Do you have any experience with the following?</h2>
           <div class="">
-            <input id="shovels"type="checkbox">
+            <input id="shovels" type="checkbox">
             <label for="shovels">Shovels</label>
 
-            <input id="gps"type="checkbox">
+            <input id="gps" type="checkbox">
             <label for="gps">Hand-held GPS</label>
 
-            <input id="writing"type="checkbox">
+            <input id="writing" type="checkbox">
             <label for="writing">Writing & blogging</label>
 
-            <input id="photo"type="checkbox">
+            <input id="photo" type="checkbox">
             <label for="photo">Photography</label>
 
-            <input id="trail"type="checkbox">
+            <input id="trail" type="checkbox">
             <label for="trail">Trail & hill climbing</label>
 
-            <input id="bush"type="checkbox">
+            <input id="bush" type="checkbox">
             <label for="bush">Bush craft</label>
 
-            <input id="atv"type="checkbox">
+            <input id="atv" type="checkbox">
             <label for="atv">ATVs</label>
 
-            <input id="plant"type="checkbox">
+            <input id="plant" type="checkbox">
             <label for="plant">Plant identification</label>
 
-            <input id="special"type="checkbox">
+            <input id="special" type="checkbox">
             <label for="special">Special event planning</label>
 
-            <input id="speaking"type="checkbox">
+            <input id="speaking" type="checkbox">
             <label for="speaking">Speaking to groups</label>
           </div>
         </fieldset>
         <fieldset>
-          <legend>Do you have a valid driver’s license?</legend>
-          <input id="shovels"type="checkbox">
-          <label for="shovels">Shovels</label>
+          <h2>Do you have a valid driver’s license?</h2>
+          <div>
+            <input id="yes" type="radio" name="driver">
+            <label for="yes">Yes</label>
 
-          <input id="gps"type="checkbox">
-          <label for="gps">Hand-held GPS</label>
+            <input id="no" type="radio" name="driver">
+            <label for="no">No</label>
+          </div>
+          <div>
+            <h2>Do you have a pick-up truck you’d be willing to use?</h2>
+            <div>
+              <input id="yes" type="radio" name="truck">
+              <label for="yes">Yes</label>
 
-          <input id="writing"type="checkbox">
-          <label for="writing">Writing & blogging</label>
+              <input id="no" type="radio" name="truck">
+              <label for="no">No</label>
+            </div>
+          </div>
+          <div class="">
+            <h2>Do you have up-to-date first-aid certification?</h2>
+            <div class="">
+              <input id="yes" type="radio" name="first-aid">
+              <label for="yes">Yes</label>
+
+              <input id="no" type="radio" name="first-aid">
+              <label for="no">No</label>
+            </div>
+          </div>
+        </fieldset>
+        <fieldset>
+          <h2>Please let us know any comments or questions you may have.(optional)</h2>
+          <div class="">
+            <textarea name="comments"></textarea>
+          </div>
         </fieldset>
       </form>
     </div>
