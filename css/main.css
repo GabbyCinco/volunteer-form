@@ -1,3 +1,24 @@
 html {
   font-family: 'Noto Serif', serif;
 }
+
+.header {
+  background-color: #70ad55;
+  color: #fff;
+}
+
+.personal {
+  border-top-style: none;
+}
+
+.green-border {
+  border-color: #6e8c62;
+}
+
+.light-green-border {
+  border-color: #70ad55;
+}
+
+.green {
+  color: #70ad55;
+}
